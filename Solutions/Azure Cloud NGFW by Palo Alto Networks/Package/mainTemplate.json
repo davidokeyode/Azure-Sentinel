@@ -49,7 +49,7 @@
     "email": "support@microsoft.com",
     "_email": "[variables('email')]",
     "_solutionName": "Azure Cloud NGFW By Palo Alto Networks",
-    "_solutionVersion": "3.0.0",
+    "_solutionVersion": "3.0.1",
     "solutionId": "azuresentinel.azure-cloudngfw-by-paloaltonetworks-solution",
     "_solutionId": "[variables('solutionId')]",
     "uiConfigId1": "AzureCloudNGFWByPaloAltoNetworks",
@@ -117,7 +117,7 @@
         "[extensionResourceId(resourceId('Microsoft.OperationalInsights/workspaces', parameters('workspace')), 'Microsoft.SecurityInsights/contentPackages', variables('_solutionId'))]"
       ],
       "properties": {
-        "description": "Azure Cloud NGFW By Palo Alto Networks data connector with template version 3.0.0",
+        "description": "Azure Cloud NGFW By Palo Alto Networks data connector with template version 3.0.1",
         "mainTemplate": {
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "[variables('dataConnectorVersion1')]",
@@ -450,7 +450,7 @@
         "[extensionResourceId(resourceId('Microsoft.OperationalInsights/workspaces', parameters('workspace')), 'Microsoft.SecurityInsights/contentPackages', variables('_solutionId'))]"
       ],
       "properties": {
-        "description": "CloudNGFW-HighRiskPorts_HuntingQueries Hunting Query with template version 3.0.0",
+        "description": "CloudNGFW-HighRiskPorts_HuntingQueries Hunting Query with template version 3.0.1",
         "mainTemplate": {
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "[variables('huntingQueryObject1').huntingQueryVersion1]",
@@ -531,7 +531,7 @@
         "[extensionResourceId(resourceId('Microsoft.OperationalInsights/workspaces', parameters('workspace')), 'Microsoft.SecurityInsights/contentPackages', variables('_solutionId'))]"
       ],
       "properties": {
-        "description": "CloudNGFW-PotentialBeaconing_HuntingQueries Hunting Query with template version 3.0.0",
+        "description": "CloudNGFW-PotentialBeaconing_HuntingQueries Hunting Query with template version 3.0.1",
         "mainTemplate": {
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "[variables('huntingQueryObject2').huntingQueryVersion2]",
@@ -616,7 +616,7 @@
         "[extensionResourceId(resourceId('Microsoft.OperationalInsights/workspaces', parameters('workspace')), 'Microsoft.SecurityInsights/contentPackages', variables('_solutionId'))]"
       ],
       "properties": {
-        "description": "CloudNGFW-Overview Workbook with template version 3.0.0",
+        "description": "CloudNGFW-Overview Workbook with template version 3.0.1",
         "mainTemplate": {
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "[variables('workbookVersion1')]",
@@ -704,7 +704,7 @@
         "[extensionResourceId(resourceId('Microsoft.OperationalInsights/workspaces', parameters('workspace')), 'Microsoft.SecurityInsights/contentPackages', variables('_solutionId'))]"
       ],
       "properties": {
-        "description": "CloudNGFW-NetworkThreat Workbook with template version 3.0.0",
+        "description": "CloudNGFW-NetworkThreat Workbook with template version 3.0.1",
         "mainTemplate": {
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "[variables('workbookVersion2')]",
@@ -792,7 +792,7 @@
         "[extensionResourceId(resourceId('Microsoft.OperationalInsights/workspaces', parameters('workspace')), 'Microsoft.SecurityInsights/contentPackages', variables('_solutionId'))]"
       ],
       "properties": {
-        "description": "CloudNGFW-UnusualThreatSignatures_AnalyticalRules Analytics Rule with template version 3.0.0",
+        "description": "CloudNGFW-UnusualThreatSignatures_AnalyticalRules Analytics Rule with template version 3.0.1",
         "mainTemplate": {
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "[variables('analyticRuleObject1').analyticRuleVersion1]",
@@ -903,7 +903,7 @@
         "[extensionResourceId(resourceId('Microsoft.OperationalInsights/workspaces', parameters('workspace')), 'Microsoft.SecurityInsights/contentPackages', variables('_solutionId'))]"
       ],
       "properties": {
-        "description": "CloudNGFW-NetworkBeaconing_AnalyticalRules Analytics Rule with template version 3.0.0",
+        "description": "CloudNGFW-NetworkBeaconing_AnalyticalRules Analytics Rule with template version 3.0.1",
         "mainTemplate": {
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "[variables('analyticRuleObject2').analyticRuleVersion2]",
@@ -1017,7 +1017,7 @@
         "[extensionResourceId(resourceId('Microsoft.OperationalInsights/workspaces', parameters('workspace')), 'Microsoft.SecurityInsights/contentPackages', variables('_solutionId'))]"
       ],
       "properties": {
-        "description": "CloudNGFW-PortScanning_AnalyticalRules Analytics Rule with template version 3.0.0",
+        "description": "CloudNGFW-PortScanning_AnalyticalRules Analytics Rule with template version 3.0.1",
         "mainTemplate": {
           "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
           "contentVersion": "[variables('analyticRuleObject3').analyticRuleVersion3]",
@@ -1126,7 +1126,7 @@
       "apiVersion": "2023-04-01-preview",
       "location": "[parameters('workspace-location')]",
       "properties": {
-        "version": "3.0.0",
+        "version": "3.0.1",
         "kind": "Solution",
         "contentSchemaVersion": "3.0.0",
         "displayName": "Azure Cloud NGFW By Palo Alto Networks",
@@ -1199,7 +1199,7 @@
           ]
         },
         "firstPublishDate": "2023-11-03",
-        "lastPublishDate": "2023-11-03",
+        "lastPublishDate": "2024-02-16",
         "providers": [
           "Palo Alto Networks"
         ],
